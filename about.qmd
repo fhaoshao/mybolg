@@ -13,7 +13,8 @@ about:
     - icon: github
       text: Github
       href: https://github.com
-
 ---
 
-About this blog
+# 关于我
+
+本人籍贯温州永嘉，出生于城乡结合部，看CCTV长大。
