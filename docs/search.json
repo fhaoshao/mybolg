@@ -2,29 +2,106 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "关于",
     "section": "",
-    "text": "关于我\n本人籍贯温州永嘉，出生于城乡结合部，看CCTV长大。"
+    "text": "--------------------------------------------------------------------------------------------------------------------"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "fhaoshao",
+    "title": "欢迎来访👋！",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJul 30, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJul 27, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "___________________________________________________________________________________________________________________________\n\n\n\n\n\n\n\n\n  \n\n\n\n\n开始搭建你的个人博客🧑‍💻\n\n\n\n\n\n\n\n\n\n\n\n\nAug 3, 2023\n\n\nfhaoshao\n\n\n\n\n\n\n  \n\n\n\n\n菜鸟周记\n\n\n\n\n\n\n\n\n\n\n\n\nJul 30, 2023\n\n\nfhaosho\n\n\n\n\n\n\n  \n\n\n\n\n写在写博客前\n\n\n\n\n\n\n\n\n\n\n\n\nJul 27, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "title": "菜鸟周记",
     "section": "",
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "title": "写在写博客前",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "敞开心扉地写一段话真难 😐"
+  },
+  {
+    "objectID": "about.html#关于我",
+    "href": "about.html#关于我",
+    "title": "关于",
+    "section": "关于我🧑‍🎓",
+    "text": "关于我🧑‍🎓\n本人籍贯温州永嘉，出生于城乡结合部，看CCTV长大。\n小时候看CCTV，以后活该去搞生化环材农林牧渔，所以我本科就真的去读了水产养殖。。\n那些从小看电视剧长大的人大都去跑干金融医生律师这些体面活了。\n\n本人智力水平中等，应试能力低下，人情观念淡薄。\n怂包一个，唯心是从；懒汉一条，唯命是从。\n--------------------------------------------------------------------------------------------------------------------"
+  },
+  {
+    "objectID": "about.html#关于博客",
+    "href": "about.html#关于博客",
+    "title": "关于",
+    "section": "关于博客🙂",
+    "text": "关于博客🙂\n\n联系方式：216000461@nbu.edu.cn"
+  },
+  {
+    "objectID": "about.html#兴趣爱好",
+    "href": "about.html#兴趣爱好",
+    "title": "关于",
+    "section": "兴趣爱好",
+    "text": "兴趣爱好\n我\n\n电吉他：\n公路车：\nR语言：学习和写代码是一项非常实际的爱好\n\n--------------------------------------------------------------------------------------------------------------------"
+  },
+  {
+    "objectID": "posts/开始搭建你的个人博客/index.html",
+    "href": "posts/开始搭建你的个人博客/index.html",
+    "title": "开始搭建你的个人博客🧑‍💻",
+    "section": "",
+    "text": "使用quarto和GitPage在Rstudio中搭建并管理你的博客网站\n\n建一个网站只需要三件东西：网页、域名和服务器。"
+  },
+  {
+    "objectID": "关于.html",
+    "href": "关于.html",
+    "title": "关于",
+    "section": "",
+    "text": "出生于城乡结合部，看CCTV长大。\n智力水平中等，应试能力低下，人情观念淡薄。\n怂包一个，唯心是从；懒汉一条，唯命是从。"
+  },
+  {
+    "objectID": "关于.html#关于我",
+    "href": "关于.html#关于我",
+    "title": "关于",
+    "section": "",
+    "text": "出生于城乡结合部，看CCTV长大。\n智力水平中等，应试能力低下，人情观念淡薄。\n怂包一个，唯心是从；懒汉一条，唯命是从。"
+  },
+  {
+    "objectID": "关于.html#兴趣爱好",
+    "href": "关于.html#兴趣爱好",
+    "title": "关于",
+    "section": "兴趣爱好",
+    "text": "兴趣爱好\n\n电吉他：\n公路车：\nR语言："
+  },
+  {
+    "objectID": "关于.html#关于博客",
+    "href": "关于.html#关于博客",
+    "title": "关于",
+    "section": "关于博客🙂",
+    "text": "关于博客🙂\n对于个人博客这种过时东西，"
+  },
+  {
+    "objectID": "categories.html",
+    "href": "categories.html",
+    "title": "标签",
+    "section": "",
+    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nAug 3, 2023\n\n\n开始搭建你的个人博客🧑‍💻\n\n\nfhaoshao \n\n\n\n\nJul 30, 2023\n\n\n菜鸟周记\n\n\nfhaosho \n\n\n\n\nJul 27, 2023\n\n\n写在写博客前\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/菜鸟周记/index.html",
+    "href": "posts/菜鸟周记/index.html",
+    "title": "菜鸟周记",
+    "section": "",
+    "text": "我在菜鸟驿站工作的见闻\n\nThis is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "简历",
+    "section": "",
+    "text": "等待开工…"
   }
 ]

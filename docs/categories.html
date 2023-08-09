@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>首页 - 欢迎来访👋！</title>
+<title>首页 - 标签</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -114,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./categories.html" rel="" target="">
+    <a class="nav-link active" href="./categories.html" rel="" target="" aria-current="page">
  <span class="menu-text">标签</span></a>
   </li>  
 </ul>
@@ -137,8 +137,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">欢迎来访👋！</h1>
+    <div class="quarto-title column-page-left">
+      <h1 class="title">标签</h1>
                       </div>
   </div>
     
@@ -154,105 +154,72 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="中学生作文">中学生作文 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="其它">其它 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="技术文章">技术文章 <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
-<p>___________________________________________________________________________________________________________________________</p>
 
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="技术文章" data-listing-date-sort="1690992000000" data-listing-file-modified-sort="1691567554042" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/开始搭建你的个人博客/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/开始搭建你的个人博客/index.html">
-<h3 class="no-anchor listing-title">
-开始搭建你的个人博客🧑‍💻
-</h3>
-<div class="listing-subtitle">
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
 
-</div>
-<div class="listing-description">
-使用quarto和GitPage在Rstudio中搭建并管理你的博客网站
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/开始搭建你的个人博客/index.html">
-<div class="listing-date">
-Aug 3, 2023
-</div>
-<div class="listing-author">
-fhaoshao
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="中学生作文" data-listing-date-sort="1690646400000" data-listing-file-modified-sort="1691567400959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/菜鸟周记/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/菜鸟周记/index.html">
-<h3 class="no-anchor listing-title">
-菜鸟周记
-</h3>
-<div class="listing-subtitle">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Date
+</th>
+<th>
+Title
+</th>
+<th>
+Author
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="技术文章" data-listing-date-sort="1690992000000" data-listing-file-modified-sort="1691567554042" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="开始搭建你的个人博客🧑‍💻" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">Aug 3, 2023</span>
+</td>
+<td>
+<a href="./posts/开始搭建你的个人博客/index.html" class="title listing-title">开始搭建你的个人博客🧑‍💻</a>
+</td>
+<td>
+<span class="listing-author">fhaoshao </span>
+</td>
+</tr>
+<tr data-index="1" data-categories="中学生作文" data-listing-date-sort="1690646400000" data-listing-file-modified-sort="1691567400959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="菜鸟周记" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">Jul 30, 2023</span>
+</td>
+<td>
+<a href="./posts/菜鸟周记/index.html" class="title listing-title">菜鸟周记</a>
+</td>
+<td>
+<span class="listing-author">fhaosho </span>
+</td>
+</tr>
+<tr data-index="2" data-categories="其它" data-listing-date-sort="1690387200000" data-listing-file-modified-sort="1691569685213" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="写在写博客前" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">Jul 27, 2023</span>
+</td>
+<td>
+<a href="./posts/welcome/index.html" class="title listing-title">写在写博客前</a>
+</td>
+<td>
+<span class="listing-author">Tristan O’Malley</span>
+</td>
+</tr>
+</tbody>
 
-</div>
-<div class="listing-description">
-我在菜鸟驿站工作的见闻
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/菜鸟周记/index.html">
-<div class="listing-date">
-Jul 30, 2023
-</div>
-<div class="listing-author">
-fhaosho
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="其它" data-listing-date-sort="1690387200000" data-listing-file-modified-sort="1691569685213" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/welcome/index.html">
-<h3 class="no-anchor listing-title">
-写在写博客前
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-敞开心扉地写一段话真难 😐
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html">
-<div class="listing-date">
-Jul 27, 2023
-</div>
-<div class="listing-author">
-Tristan O’Malley
-</div>
-</a>
-</div>
-</div>
-</div>
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>

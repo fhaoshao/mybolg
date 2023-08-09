@@ -3,14 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "fhaoshao"
+  title: "首页"
   navbar:
+    left:
+      - categories.qmd
     right:
       - about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+      - resume.qmd
+  
+
 format:
   html:
     theme: cosmo

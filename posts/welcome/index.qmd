@@ -1,12 +1,10 @@
 ---
-title: "Welcome To My Blog"
+title: "写在写博客前"
 author: "Tristan O'Malley"
 date: "2023-07-27"
-categories: [news]
+categories: [其它]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+敞开心扉地写一段话真难 😐
 
-![](thumbnail.jpg)
-
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+------------------------------------------------------------------------
