@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "欢迎来访👋！",
     "section": "",
-    "text": "开始搭建你的个人博客🧑‍💻\n\n\n\n\n\n\n\n\n\n\n\n\nAug 3, 2023\n\n\nfhaoshao\n\n\n\n\n\n\n  \n\n\n\n\n菜鸟周记\n\n\n\n\n\n\n\n\n\n\n\n\nJul 30, 2023\n\n\nfhaosho\n\n\n\n\n\n\n  \n\n\n\n\n写在写博客前\n\n\n\n\n\n\n\n\n\n\n\n\nJul 27, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "开始搭建你的个人博客🧑‍💻\n\n\n\n\n\n\n\n\n\n\n\n\n8/3/23\n\n\n\n\n\n\n  \n\n\n\n\n菜鸟周记\n\n\n\n\n\n\n\n\n\n\n\n\n7/30/23\n\n\n\n\n\n\n  \n\n\n\n\n写在写博客前\n\n\n\n\n\n\n\n\n\n\n\n\n7/27/23\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -32,28 +32,28 @@
     "href": "about.html#关于我",
     "title": "关于",
     "section": "关于我🧑‍🎓",
-    "text": "关于我🧑‍🎓\n本人籍贯温州永嘉，出生于城乡结合部，看CCTV长大。\n小时候看CCTV，以后活该去搞生化环材农林牧渔，所以我本科就真的去读了水产养殖。。\n那些从小看电视剧长大的人大都去跑干金融医生律师这些体面活了。\n————————————————————————————————————————\n本人智力水平中等，应试能力低下，人情观念淡薄。\n怂包一个，唯心是从；懒汉一条，唯命是从。"
+    "text": "关于我🧑‍🎓\n本人出生于城乡结合部，看CCTV长大。\n小时候看CCTV，长大以后活该去搞生化环材、农林牧渔，所以我本科就真的去读了水产养殖。。\n那些从小看电视剧长大的人都去跑干金融医生律师这些体面活了。\n————————————————————————————————————————\n本人智力水平中等，应试能力低下，人情观念淡薄。说白了就是蠢货一个，总是喜欢自找苦吃。"
   },
   {
     "objectID": "about.html#关于博客",
     "href": "about.html#关于博客",
     "title": "关于",
     "section": "关于博客🙂",
-    "text": "关于博客🙂\n\n联系方式：216000461@nbu.edu.cn"
+    "text": "关于博客🙂\n本博客将记录我的技术、知识和作文，主要是给自己看。但是写点东西出来总是要给别人看的，能点看进来的都是有缘人，所以我会在每周末会更新网站。如果没有更新，就是我这周写了点见不得人的东西，反正不可能是没写🙃\n————————————————————————————————————————\n\n联系方式：216000461@nbu.edu.cn"
   },
   {
     "objectID": "about.html#兴趣爱好",
     "href": "about.html#兴趣爱好",
     "title": "关于",
     "section": "兴趣爱好",
-    "text": "兴趣爱好\n我\n\n电吉他：\n公路车：\nR语言：学习和写代码是一项非常实际的爱好"
+    "text": "兴趣爱好\n\n电吉他🎸：高中毕业的时候\n公路车🚲：\nR语言👨‍💻：学习和写代码是一项非常实际的爱好"
   },
   {
     "objectID": "posts/开始搭建你的个人博客/index.html",
     "href": "posts/开始搭建你的个人博客/index.html",
     "title": "开始搭建你的个人博客🧑‍💻",
     "section": "",
-    "text": "使用quarto和GitPage在Rstudio中搭建并管理你的博客网站\n\n建一个网站只需要三件东西：网页、域名和服务器。"
+    "text": "使用quarto在Rstudio中搭建并管理你的博客网站"
   },
   {
     "objectID": "关于.html",
@@ -88,7 +88,7 @@
     "href": "categories.html",
     "title": "标签",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nAug 3, 2023\n\n\n开始搭建你的个人博客🧑‍💻\n\n\nfhaoshao \n\n\n\n\nJul 30, 2023\n\n\n菜鸟周记\n\n\nfhaosho \n\n\n\n\nJul 27, 2023\n\n\n写在写博客前\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nAug 3, 2023\n\n\n开始搭建你的个人博客🧑‍💻\n\n\n\n\n\n\n\nJul 30, 2023\n\n\n菜鸟周记\n\n\n\n\n\n\n\nJul 27, 2023\n\n\n写在写博客前\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/菜鸟周记/index.html",
@@ -103,5 +103,19 @@
     "title": "简历",
     "section": "",
     "text": "等待开工…"
+  },
+  {
+    "objectID": "posts/开始搭建你的个人博客/index.html#使用quarto在rstudio中搭建并管理你的博客网站",
+    "href": "posts/开始搭建你的个人博客/index.html#使用quarto在rstudio中搭建并管理你的博客网站",
+    "title": "开始搭建你的个人博客🧑‍💻",
+    "section": "",
+    "text": "建一个网站只需要三件东西：网页、域名和服务器。"
+  },
+  {
+    "objectID": "posts/开始搭建你的个人博客/index.html#建网站你需要知道",
+    "href": "posts/开始搭建你的个人博客/index.html#建网站你需要知道",
+    "title": "开始搭建你的个人博客🧑‍💻",
+    "section": "建网站你需要知道",
+    "text": "建网站你需要知道\n建一个网站只需要三件东西：网页、域名和服务器。"
   }
 ]

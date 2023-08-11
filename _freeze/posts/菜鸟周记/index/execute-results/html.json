@@ -1,7 +1,7 @@
 {
-  "hash": "b3e9f52fa13ecacda2b3b6679ff8dca0",
+  "hash": "f66c0fd504b6f7a3448f42a3bdb65d92",
   "result": {
-    "markdown": "---\ntitle: \"菜鸟周记\"\nauthor: \"fhaosho\"\ndate: \"2023-07-30\"\ncategories: [中学生作文]\n---\n\n\n我在菜鸟驿站工作的见闻\n\n------------------------------------------------------------------------------------------------------------------------------------------\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "markdown": "---\ntitle: \"菜鸟周记\"\ndate: \"2023-07-30\"\ncategories: [中学生作文]\n---\n\n\n我在菜鸟驿站工作的见闻\n\n------------------------------------------------------------------------\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

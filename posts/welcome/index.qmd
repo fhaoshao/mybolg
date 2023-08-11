@@ -1,6 +1,5 @@
 ---
 title: "写在写博客前"
-author: "Tristan O'Malley"
 date: "2023-07-27"
 categories: [其它]
 ---
