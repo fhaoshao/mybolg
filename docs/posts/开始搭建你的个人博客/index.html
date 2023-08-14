@@ -59,6 +59,9 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -140,9 +143,23 @@ ul.task-list li input[type="checkbox"] {
 
 <p>使用quarto在Rstudio中搭建并管理你的博客网站</p>
 <hr>
-<section id="建网站你需要知道" class="level2">
-<h2 class="anchored" data-anchor-id="建网站你需要知道">建网站你需要知道</h2>
-<p>建一个网站只需要三件东西：网页、域名和服务器。</p>
+<section id="搭建博客前你需要知道" class="level2">
+<h2 class="anchored" data-anchor-id="搭建博客前你需要知道">搭建博客前你需要知道</h2>
+<p>建一个网站只需要三件东西：网页、域名和服务器。网站可以分成静态网站和动态网站，</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A[使用quarto创建静态网页] --&gt; D(在Rstudio中搭建博客环境)
+  C[配置git和github环境] --&gt; D
+  D --&gt; E[将网页发布到gitpage]
+  E --&gt; F[DNS域名解析]
+</pre>
+</div>
+</div>
+</div>
+</div>
 
 
 </section>

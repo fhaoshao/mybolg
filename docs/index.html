@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>首页 - 欢迎来访👋！</title>
+<title>首页 - 欢迎来访！</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -115,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./categories.html" rel="" target="">
- <span class="menu-text">标签</span></a>
+ <span class="menu-text">分类</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -137,8 +137,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">欢迎来访👋！</h1>
+    <div class="quarto-title column-page-left">
+      <h1 class="title">欢迎来访！</h1>
                       </div>
   </div>
     
@@ -154,9 +154,11 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="中学生作文">中学生作文 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="其它">其它 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="技术文章">技术文章 <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
@@ -166,8 +168,29 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+</div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="技术文章" data-listing-date-sort="1690992000000" data-listing-file-modified-sort="1691667169234" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="0" data-categories="技术文章" data-listing-date-sort="1690992000000" data-listing-file-modified-sort="1691913307493" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
 <p><a href="./posts/开始搭建你的个人博客/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
 </div>
@@ -179,6 +202,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('技术文章'); return false;">
+技术文章
+</div>
+</div>
+<a href="./posts/开始搭建你的个人博客/index.html">
 <div class="listing-description">
 使用quarto在Rstudio中搭建并管理你的博客网站
 </div>
@@ -192,7 +222,7 @@ ul.task-list li input[type="checkbox"] {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="中学生作文" data-listing-date-sort="1690646400000" data-listing-file-modified-sort="1691653081806" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="1" data-categories="中学生作文" data-listing-date-sort="1690646400000" data-listing-file-modified-sort="1691939197185" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
 <p><a href="./posts/菜鸟周记/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
 </div>
@@ -204,6 +234,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('中学生作文'); return false;">
+中学生作文
+</div>
+</div>
+<a href="./posts/菜鸟周记/index.html">
 <div class="listing-description">
 我在菜鸟驿站工作的见闻
 </div>
@@ -217,7 +254,7 @@ ul.task-list li input[type="checkbox"] {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="其它" data-listing-date-sort="1690387200000" data-listing-file-modified-sort="1691653087026" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="2" data-categories="其它" data-listing-date-sort="1690387200000" data-listing-file-modified-sort="1691940180338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
 <p><a href="./posts/welcome/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
 </div>
@@ -229,8 +266,15 @@ ul.task-list li input[type="checkbox"] {
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('其它'); return false;">
+其它
+</div>
+</div>
+<a href="./posts/welcome/index.html">
 <div class="listing-description">
-敞开心扉地写一段话真难 😐
+敞开心扉真难。
 </div>
 </a>
 </div>

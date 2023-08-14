@@ -1,11 +1,11 @@
 ---
-title: "欢迎来访👋！"
+title: "欢迎来访！"
 listing:
   contents: posts
   sort: "date desc"
   type: default
-  categories: false
-  sort-ui: false
+  categories: true
+  sort-ui: true
   filter-ui: false
   date-format: short
 page-layout: full
