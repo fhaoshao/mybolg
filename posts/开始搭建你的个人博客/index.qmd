@@ -1,16 +1,17 @@
 ---
 title: "开始搭建你的个人博客🧑‍💻"
+description: 使用quarto在Rstudio中搭建并管理你的博客网站
 date: "2023-08-03"
+date-format: short
 categories: [技术文章]
+author: []
+draft: false
 ---
 
-使用quarto在Rstudio中搭建并管理你的博客网站
-
-------------------------------------------------------------------------
 
 ## 搭建博客前你需要知道
 
-建一个网站只需要三件东西：网页、域名和服务器。网站可以分成静态网站和动态网站，
+建一个网站只需要三件东西：网页、域名和服务器。网站可以分成静态网站和动态网站，二者的区分在于网页能否与服务器进行交互。
 
 ```{mermaid}
 flowchart LR
@@ -19,3 +20,45 @@ flowchart LR
   D --> E[将网页发布到gitpage]
   E --> F[DNS域名解析]
 ```
+
+::: panel-tabset
+## R
+
+``` r
+fizz_buzz <- function(fbnums = 1:50) {
+  output <- dplyr::case_when(
+    fbnums %% 15 == 0 ~ "FizzBuzz",
+    fbnums %% 3 == 0 ~ "Fizz",
+    fbnums %% 5 == 0 ~ "Buzz",
+    TRUE ~ as.character(fbnums)
+  )
+  print(output)
+}
+```
+
+## Python
+
+``` python
+def fizz_buzz(num):
+  if num % 15 == 0:
+    print("FizzBuzz")
+  elif num % 5 == 0:
+    print("Buzz")
+  elif num % 3 == 0:
+    print("Fizz")
+  else:
+    print(num)
+```
+:::
+
+::: {.panel-tabset group="language"}
+## R
+
+Tab content
+
+## Python
+
+Tab content
+:::
+
+

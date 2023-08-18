@@ -11,11 +11,20 @@ website:
       - about.qmd
       - resume.qmd
   
+  
 
 format:
   html:
-    theme: cosmo
+    theme: litera
+    monobackgroundcolor: rgb(255,255,248)
+    linestretch: 1.6
     css: styles.css
+    toc: true
+    linkcolor: rgb(50,140,210)
+    published-title: 日期
+    author-title: 作者
+    mainfont: fangsong
+    
     
 
 editor: visual
