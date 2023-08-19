@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "欢迎来访！",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n  \n\n\n\n\n开始搭建你的个人博客🧑‍💻\n\n\n\n\n\n\n\n技术文章\n\n\n\n\n使用quarto在Rstudio中搭建并管理你的博客网站\n\n\n\n\n\n\n8/3/23\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n  \n\n\n\n\n开始搭建你的个人博客🧑‍💻\n\n\n\n\n\n\n\n技术文章\n\n\n\n\n使用quarto在Rstudio中搭建并管理你的博客网站\n\n\n\n\n\n\n8/3/23\n\n\n\n\n\n\nNo matching items\n\nReusehttps://creativecommons.org/licenses/by/4.0/"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -74,7 +74,7 @@
     "href": "categories.html",
     "title": "分类",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nAug 3, 2023\n\n\n开始搭建你的个人博客🧑‍💻\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\n文章\n\n\nAuthor\n\n\n\n\n\n\nAug 3, 2023\n\n\n开始搭建你的个人博客🧑‍💻\n\n\n\n\n\n\n\n\n\nNo matching items\n\nReusehttps://creativecommons.org/licenses/by/4.0/"
   },
   {
     "objectID": "resume.html",
@@ -88,11 +88,25 @@
     "href": "posts/开始搭建你的个人博客/index.html",
     "title": "开始搭建你的个人博客🧑‍💻",
     "section": "",
-    "text": "建一个网站只需要三件东西：网页、域名和服务器。网站可以分成静态网站和动态网站，二者的区分在于网页能否与服务器进行交互。\n\n\n\n\nflowchart LR\n  A[使用quarto创建静态网页] --&gt; D(在Rstudio中搭建博客环境)\n  C[配置git和github环境] --&gt; D\n  D --&gt; E[将网页发布到gitpage]\n  E --&gt; F[DNS域名解析]\n\n\n\n\n\n\nRPython\n\n\nfizz_buzz &lt;- function(fbnums = 1:50) {\n  output &lt;- dplyr::case_when(\n    fbnums %% 15 == 0 ~ \"FizzBuzz\",\n    fbnums %% 3 == 0 ~ \"Fizz\",\n    fbnums %% 5 == 0 ~ \"Buzz\",\n    TRUE ~ as.character(fbnums)\n  )\n  print(output)\n}\n\n\ndef fizz_buzz(num):\n  if num % 15 == 0:\n    print(\"FizzBuzz\")\n  elif num % 5 == 0:\n    print(\"Buzz\")\n  elif num % 3 == 0:\n    print(\"Fizz\")\n  else:\n    print(num)\n\n\n\n\nRPython\n\n\nTab content\n\n\nTab content"
+    "text": "建一个网站只需要三件东西：网页、域名和服务器。网站可以分成静态网站和动态网站，二者的区分在于网页能否与服务器进行实时交互。"
   },
   {
     "objectID": "posts/开始搭建你的个人博客/index.html#搭建博客前你需要知道",
     "href": "posts/开始搭建你的个人博客/index.html#搭建博客前你需要知道",
+    "title": "开始搭建你的个人博客🧑‍💻",
+    "section": "",
+    "text": "建一个网站只需要三件东西：网页、域名和服务器。网站可以分成静态网站和动态网站，二者的区分在于网页能否与服务器进行交互。\n\n\n\n\nflowchart LR\n  A[使用quarto创建静态网页] --&gt; D(在Rstudio中搭建博客环境)\n  C[配置git和github环境] --&gt; D\n  D --&gt; E[将网页发布到gitpage]\n  E --&gt; F[DNS域名解析]\n\n\n\n\n\n\nRPython\n\n\nfizz_buzz &lt;- function(fbnums = 1:50) {\n  output &lt;- dplyr::case_when(\n    fbnums %% 15 == 0 ~ \"FizzBuzz\",\n    fbnums %% 3 == 0 ~ \"Fizz\",\n    fbnums %% 5 == 0 ~ \"Buzz\",\n    TRUE ~ as.character(fbnums)\n  )\n  print(output)\n}\n\n\ndef fizz_buzz(num):\n  if num % 15 == 0:\n    print(\"FizzBuzz\")\n  elif num % 5 == 0:\n    print(\"Buzz\")\n  elif num % 3 == 0:\n    print(\"Fizz\")\n  else:\n    print(num)\n\n\n\n\nRPython\n\n\nTab content\n\n\nTab content"
+  },
+  {
+    "objectID": "技术博客/开始搭建你的个人博客/index.html",
+    "href": "技术博客/开始搭建你的个人博客/index.html",
+    "title": "开始搭建你的个人博客🧑‍💻",
+    "section": "",
+    "text": "建一个网站只需要三件东西：网页、域名和服务器。网站可以分成静态网站和动态网站，二者的区分在于网页能否与服务器进行交互。\n\n\n\n\nflowchart LR\n  A[使用quarto创建静态网页] --&gt; D(在Rstudio中搭建博客环境)\n  C[配置git和github环境] --&gt; D\n  D --&gt; E[将网页发布到gitpage]\n  E --&gt; F[DNS域名解析]\n\n\n\n\n\n\nRPython\n\n\nfizz_buzz &lt;- function(fbnums = 1:50) {\n  output &lt;- dplyr::case_when(\n    fbnums %% 15 == 0 ~ \"FizzBuzz\",\n    fbnums %% 3 == 0 ~ \"Fizz\",\n    fbnums %% 5 == 0 ~ \"Buzz\",\n    TRUE ~ as.character(fbnums)\n  )\n  print(output)\n}\n\n\ndef fizz_buzz(num):\n  if num % 15 == 0:\n    print(\"FizzBuzz\")\n  elif num % 5 == 0:\n    print(\"Buzz\")\n  elif num % 3 == 0:\n    print(\"Fizz\")\n  else:\n    print(num)\n\n\n\n\nRPython\n\n\nTab content\n\n\nTab content"
+  },
+  {
+    "objectID": "技术博客/开始搭建你的个人博客/index.html#搭建博客前你需要知道",
+    "href": "技术博客/开始搭建你的个人博客/index.html#搭建博客前你需要知道",
     "title": "开始搭建你的个人博客🧑‍💻",
     "section": "",
     "text": "建一个网站只需要三件东西：网页、域名和服务器。网站可以分成静态网站和动态网站，二者的区分在于网页能否与服务器进行交互。\n\n\n\n\nflowchart LR\n  A[使用quarto创建静态网页] --&gt; D(在Rstudio中搭建博客环境)\n  C[配置git和github环境] --&gt; D\n  D --&gt; E[将网页发布到gitpage]\n  E --&gt; F[DNS域名解析]\n\n\n\n\n\n\nRPython\n\n\nfizz_buzz &lt;- function(fbnums = 1:50) {\n  output &lt;- dplyr::case_when(\n    fbnums %% 15 == 0 ~ \"FizzBuzz\",\n    fbnums %% 3 == 0 ~ \"Fizz\",\n    fbnums %% 5 == 0 ~ \"Buzz\",\n    TRUE ~ as.character(fbnums)\n  )\n  print(output)\n}\n\n\ndef fizz_buzz(num):\n  if num % 15 == 0:\n    print(\"FizzBuzz\")\n  elif num % 5 == 0:\n    print(\"Buzz\")\n  elif num % 3 == 0:\n    print(\"Fizz\")\n  else:\n    print(num)\n\n\n\n\nRPython\n\n\nTab content\n\n\nTab content"

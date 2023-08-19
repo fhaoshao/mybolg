@@ -4,12 +4,19 @@ project:
 
 website:
   title: "首页"
+  reader-mode: true
   navbar:
     left:
       - categories.qmd
     right:
       - about.qmd
       - resume.qmd
+  page-footer: 
+    center: 
+      - text: "Copyright © fhaoshao 2023"
+
+
+    
   
   
 
@@ -24,6 +31,7 @@ format:
     published-title: 日期
     author-title: 作者
     mainfont: fangsong
+    license: "CC BY"
     
     
 

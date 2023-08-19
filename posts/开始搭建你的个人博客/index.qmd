@@ -8,57 +8,24 @@ author: []
 draft: false
 ---
 
+# 搭建博客前你需要知道
 
-## 搭建博客前你需要知道
+建一个网站只需要三件东西：网页、域名和服务器。网站可以分成静态网站和动态网站，二者的区分在于网页能否与服务器进行实时交互。
 
-建一个网站只需要三件东西：网页、域名和服务器。网站可以分成静态网站和动态网站，二者的区分在于网页能否与服务器进行交互。
 
+
+
+
+# 我的博客搭建流程
 ```{mermaid}
 flowchart LR
-  A[使用quarto创建静态网页] --> D(在Rstudio中搭建博客环境)
+  A[使用quarto创建博客模板] --> D(在Rstudio中搭建博客环境)
   C[配置git和github环境] --> D
   D --> E[将网页发布到gitpage]
   E --> F[DNS域名解析]
 ```
 
-::: panel-tabset
-## R
 
-``` r
-fizz_buzz <- function(fbnums = 1:50) {
-  output <- dplyr::case_when(
-    fbnums %% 15 == 0 ~ "FizzBuzz",
-    fbnums %% 3 == 0 ~ "Fizz",
-    fbnums %% 5 == 0 ~ "Buzz",
-    TRUE ~ as.character(fbnums)
-  )
-  print(output)
-}
-```
-
-## Python
-
-``` python
-def fizz_buzz(num):
-  if num % 15 == 0:
-    print("FizzBuzz")
-  elif num % 5 == 0:
-    print("Buzz")
-  elif num % 3 == 0:
-    print("Fizz")
-  else:
-    print(num)
-```
-:::
-
-::: {.panel-tabset group="language"}
-## R
-
-Tab content
-
-## Python
-
-Tab content
-:::
+## 
 
 
