@@ -4,14 +4,14 @@
     "href": "about.html",
     "title": "关于",
     "section": "",
-    "text": "——————————————————————————————————————————————"
+    "text": "————————————————————"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "欢迎来访！",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n  \n\n\n\n\n开始搭建你的个人博客🧑‍💻\n\n\n\n\n\n\n\n技术文章\n\n\n\n\n使用quarto在Rstudio中搭建并管理你的博客网站\n\n\n\n\n\n\n8/3/23\n\n\n\n\n\n\nNo matching items\n\nReusehttps://creativecommons.org/licenses/by/4.0/"
+    "text": "开始搭建你的个人博客🧑‍💻\n\n\n\n\n\n\n\n技术文章\n\n\n\n\n使用quarto在Rstudio中搭建并管理你的博客网站\n\n\n\n\n\n\n8/3/23\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -25,7 +25,7 @@
     "href": "about.html#关于我",
     "title": "关于",
     "section": "关于我🧑‍🎓",
-    "text": "关于我🧑‍🎓\n本人出生于城乡结合部，看CCTV长大。\n\n小时候看CCTV，长大以后活该去搞生化环材、农林牧渔，所以我本科就真的去读了水产养殖。。那些从小看电视剧长大的人都去跑干金融医生律师这些体面活了。\n\n本人智力水平中等，应试能力低下，人情观念淡薄。\n\n说白了就是蠢货一个，总是喜欢自找苦吃。"
+    "text": "关于我🧑‍🎓\n本人出生于城乡结合部，看CCTV长大。\n\n小时候看CCTV，长大以后活该去搞生化环材、农林牧渔，所以我本科就真的去读了水产养殖。\n\n本人智力水平中等，应试能力低下，人情观念淡薄。\n\n说白了就是蠢货一个，总是喜欢自找苦吃。"
   },
   {
     "objectID": "about.html#关于博客",
@@ -74,7 +74,7 @@
     "href": "categories.html",
     "title": "分类",
     "section": "",
-    "text": "Date\n\n\n文章\n\n\nAuthor\n\n\n\n\n\n\nAug 3, 2023\n\n\n开始搭建你的个人博客🧑‍💻\n\n\n\n\n\n\n\n\n\nNo matching items\n\nReusehttps://creativecommons.org/licenses/by/4.0/"
+    "text": "Date\n\n\n文章\n\n\nAuthor\n\n\n\n\n\n\nAug 3, 2023\n\n\n开始搭建你的个人博客🧑‍💻\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resume.html",
@@ -110,5 +110,26 @@
     "title": "开始搭建你的个人博客🧑‍💻",
     "section": "",
     "text": "建一个网站只需要三件东西：网页、域名和服务器。网站可以分成静态网站和动态网站，二者的区分在于网页能否与服务器进行交互。\n\n\n\n\nflowchart LR\n  A[使用quarto创建静态网页] --&gt; D(在Rstudio中搭建博客环境)\n  C[配置git和github环境] --&gt; D\n  D --&gt; E[将网页发布到gitpage]\n  E --&gt; F[DNS域名解析]\n\n\n\n\n\n\nRPython\n\n\nfizz_buzz &lt;- function(fbnums = 1:50) {\n  output &lt;- dplyr::case_when(\n    fbnums %% 15 == 0 ~ \"FizzBuzz\",\n    fbnums %% 3 == 0 ~ \"Fizz\",\n    fbnums %% 5 == 0 ~ \"Buzz\",\n    TRUE ~ as.character(fbnums)\n  )\n  print(output)\n}\n\n\ndef fizz_buzz(num):\n  if num % 15 == 0:\n    print(\"FizzBuzz\")\n  elif num % 5 == 0:\n    print(\"Buzz\")\n  elif num % 3 == 0:\n    print(\"Fizz\")\n  else:\n    print(num)\n\n\n\n\nRPython\n\n\nTab content\n\n\nTab content"
+  },
+  {
+    "objectID": "posts/开始搭建你的个人博客/index.html#部署网页",
+    "href": "posts/开始搭建你的个人博客/index.html#部署网页",
+    "title": "开始搭建你的个人博客🧑‍💻",
+    "section": "部署网页",
+    "text": "部署网页\n\n将网页发布到gitpage\n\n\nDNS域名解析"
+  },
+  {
+    "objectID": "posts/开始搭建你的个人博客/index.html#在rstudio中搭建博客环境",
+    "href": "posts/开始搭建你的个人博客/index.html#在rstudio中搭建博客环境",
+    "title": "开始搭建你的个人博客🧑‍💻",
+    "section": "在Rstudio中搭建博客环境",
+    "text": "在Rstudio中搭建博客环境\n\n使用quarto创建博客模板\n\n\n配置git和github环境"
+  },
+  {
+    "objectID": "posts/开始搭建你的个人博客/index.html#在rstudio中搭建博客网页",
+    "href": "posts/开始搭建你的个人博客/index.html#在rstudio中搭建博客网页",
+    "title": "开始搭建你的个人博客🧑‍💻",
+    "section": "在Rstudio中搭建博客网页",
+    "text": "在Rstudio中搭建博客网页\n\n使用quarto创建博客模板\n\n\n配置git和github环境"
   }
 ]

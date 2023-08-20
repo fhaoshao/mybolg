@@ -155,10 +155,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#搭建博客前你需要知道" id="toc-搭建博客前你需要知道" class="nav-link active" data-scroll-target="#搭建博客前你需要知道">搭建博客前你需要知道</a></li>
+  <li><a href="#搭建博客前需要知道" id="toc-搭建博客前需要知道" class="nav-link active" data-scroll-target="#搭建博客前需要知道">搭建博客前需要知道</a></li>
   <li><a href="#我的博客搭建流程" id="toc-我的博客搭建流程" class="nav-link" data-scroll-target="#我的博客搭建流程">我的博客搭建流程</a>
   <ul class="collapse">
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#在rstudio中搭建博客网页" id="toc-在rstudio中搭建博客网页" class="nav-link" data-scroll-target="#在rstudio中搭建博客网页">在Rstudio中搭建博客网页</a>
+  <ul class="collapse">
+  <li><a href="#使用quarto创建博客模板" id="toc-使用quarto创建博客模板" class="nav-link" data-scroll-target="#使用quarto创建博客模板">使用quarto创建博客模板</a></li>
+  <li><a href="#配置git和github环境" id="toc-配置git和github环境" class="nav-link" data-scroll-target="#配置git和github环境">配置git和github环境</a></li>
+  </ul></li>
+  <li><a href="#部署网页" id="toc-部署网页" class="nav-link" data-scroll-target="#部署网页">部署网页</a>
+  <ul class="collapse">
+  <li><a href="#将网页发布到gitpage" id="toc-将网页发布到gitpage" class="nav-link" data-scroll-target="#将网页发布到gitpage">将网页发布到gitpage</a></li>
+  <li><a href="#dns域名解析" id="toc-dns域名解析" class="nav-link" data-scroll-target="#dns域名解析">DNS域名解析</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -169,9 +178,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="搭建博客前你需要知道" class="level1">
-<h1>搭建博客前你需要知道</h1>
-<p>建一个网站只需要三件东西：网页、域名和服务器。网站可以分成静态网站和动态网站，二者的区分在于网页能否与服务器进行实时交互。</p>
+<hr>
+<section id="搭建博客前需要知道" class="level1">
+<h1>搭建博客前需要知道</h1>
+<p>建一个网站只需要三件东西：网页、域名和服务器。网页包括组成内容的html、css、JavaScript文件以及图片、音频、视频等各种媒体资源，域名是该网页在因特网上的地址，服务器则是负责将本地的网页接入到因特网上。</p>
+<p>网站可以分成静态网站和动态网站，二者的区别在于网页能否与服务器进行实时交互。</p>
 </section>
 <section id="我的博客搭建流程" class="level1">
 <h1>我的博客搭建流程</h1>
@@ -180,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
 <div>
 <div>
 <pre class="mermaid mermaid-js">flowchart LR
-  A[使用quarto创建博客模板] --&gt; D(在Rstudio中搭建博客环境)
+  A[使用quarto创建博客模板] --&gt; D(在Rstudio中搭建博客网页)
   C[配置git和github环境] --&gt; D
   D --&gt; E[将网页发布到gitpage]
   E --&gt; F[DNS域名解析]
@@ -189,14 +200,29 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
+<section id="在rstudio中搭建博客网页" class="level2">
+<h2 class="anchored" data-anchor-id="在rstudio中搭建博客网页">在Rstudio中搭建博客网页</h2>
+<section id="使用quarto创建博客模板" class="level3">
+<h3 class="anchored" data-anchor-id="使用quarto创建博客模板">使用quarto创建博客模板</h3>
+</section>
+<section id="配置git和github环境" class="level3">
+<h3 class="anchored" data-anchor-id="配置git和github环境">配置git和github环境</h3>
+</section>
+</section>
+<section id="部署网页" class="level2">
+<h2 class="anchored" data-anchor-id="部署网页">部署网页</h2>
+<section id="将网页发布到gitpage" class="level3">
+<h3 class="anchored" data-anchor-id="将网页发布到gitpage">将网页发布到gitpage</h3>
+</section>
+<section id="dns域名解析" class="level3">
+<h3 class="anchored" data-anchor-id="dns域名解析">DNS域名解析</h3>
 
 
 </section>
 </section>
+</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -436,13 +462,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item">
- Copyright © fhaoshao 2023
-  </li>  
-</ul>
-    </div>
+    <div class="nav-footer-center">Copyright © fhaoshao 2023, license:<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

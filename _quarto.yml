@@ -12,8 +12,7 @@ website:
       - about.qmd
       - resume.qmd
   page-footer: 
-    center: 
-      - text: "Copyright © fhaoshao 2023"
+    center: "Copyright © fhaoshao 2023, license:[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)."
 
 
     
@@ -23,7 +22,7 @@ website:
 format:
   html:
     theme: litera
-    monobackgroundcolor: rgb(255,255,248)
+    monobackgroundcolor: rgb(250,252,250)
     linestretch: 1.6
     css: styles.css
     toc: true
@@ -31,7 +30,7 @@ format:
     published-title: 日期
     author-title: 作者
     mainfont: fangsong
-    license: "CC BY"
+    
     
     
 
