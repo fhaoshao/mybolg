@@ -22,9 +22,11 @@ website:
 format:
   html:
     theme: litera
-    monobackgroundcolor: rgb(250,252,250)
-    linestretch: 1.6
+    backgroundcolor: rgb(251,252,250)
+    title-block-banner: rgb(251,252,250)
+    linestretch: 1.4
     css: styles.css
+    margin-top: 3em
     toc: true
     linkcolor: rgb(50,140,210)
     published-title: 日期
