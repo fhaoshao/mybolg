@@ -2,7 +2,7 @@
 title: "上半年回顾"
 description: "个人情绪比较多，请谨慎阅读！！！"
 date: "2023-08-19"
-title-block-banner: rgb(251,252,250)
+title-block-banner: rgb(249,250,247)
 date-format: short
 categories: [其它]
 draft: true

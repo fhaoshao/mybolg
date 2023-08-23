@@ -10,7 +10,7 @@ listing:
   date-format: short
   page-size: 5
 page-layout: full
-title-block-banner: false
+title-block-banner: rgb(251,252,250)
 ---
 
------
+------------------------------------------------------------------------
