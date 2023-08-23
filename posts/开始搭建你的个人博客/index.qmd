@@ -3,7 +3,7 @@ title: "开始搭建你的个人博客🧑‍💻"
 description: 使用quarto在Rstudio中搭建并管理你的博客网站
 date: "2023-08-03"
 date-format: short
-title-block-banner: rgb(251,252,250)
+title-block-banner: rgb(249,250,247)
 categories: [技术文章]
 author: []
 draft: false

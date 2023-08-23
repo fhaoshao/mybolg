@@ -9,7 +9,7 @@ listing:
   filter-ui: false
   field-display-names:
    title: "文章"
-   Date: "日期"
+   auther: "作者"
 page-layout: full
 title-block-banner: true
 ---

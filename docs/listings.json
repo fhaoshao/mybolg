@@ -2,15 +2,13 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/开始搭建你的个人博客/index.html",
-      "/posts/welcome/index.html"
+      "/posts/开始搭建你的个人博客/index.html"
     ]
   },
   {
     "listing": "/categories.html",
     "items": [
-      "/posts/开始搭建你的个人博客/index.html",
-      "/posts/welcome/index.html"
+      "/posts/开始搭建你的个人博客/index.html"
     ]
   }
 ]
