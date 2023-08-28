@@ -25,15 +25,19 @@ format:
     backgroundcolor: rgb(251,252,250)
     title-block-banner: rgb(251,252,250)
     linestretch: 1.6
-    fontsize: 16px
+    fontsize: 15px
     css: styles.css
     margin-top: 3em
     toc: true
     linkcolor: rgb(50,140,210)
     published-title: 日期
     author-title: 作者
-    mainfont: Source Han Sans
-    
+    mainfont: Source Han Serif
+    grid:
+      sidebar-width: 200px
+      body-width: 750px
+      margin-width: 300px
+      gutter-width: 1.5rem
     
     
 
