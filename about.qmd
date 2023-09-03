@@ -4,10 +4,19 @@ toc: false
 about:
   template: marquee
 ---
+# 关于我
+略略略~~
 
+
+# 关于博客
 
 本博客主要用于**技术整理、知识管理和**和**写作文**，主要是给自己看。但是写点东西出来总是要给别人看的，能点看进来的应该都是有缘人，至于更新，自然就是**随缘更新**了。
 
 
+博客架构
+
+:   使用Quarto在Rstudio中构建的静态网页，部署到Gitpage。
+
+:   教程可以参见[Quarto 文档](https://quarto.org/)以及这篇博文[【传送门】](https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/)
 
 ###### 联系方式*：216000461\@nbu.edu.cn*
