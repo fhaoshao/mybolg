@@ -1,0 +1,112 @@
+---
+title: "不同氮源及盐度对新月菱形藻生长繁殖的影响"
+description: "生物饵料培养学课程设计"
+date: "2023-08-03"
+author: [fhaoshao]
+title-block-banner: rgb(249,250,247)
+date-format: short
+categories: [课程设计]
+draft: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(agricolae)
+library(patchwork)
+setwd("C:/Users/fhaoshao/Desktop/23上")
+salt_ogdata=read_csv("saltdata.csv")
+salt_ogdata$盐度=as_factor(salt_ogdata$盐度)
+salt_newdata=read_csv("saltdata1.csv")
+salt_newdata$盐度=as_factor(salt_newdata$盐度)
+N_ogdata=read_csv("Ndata.csv")
+```
+
+# 原始数据
+
+使用Excel软件汇总各组处理的计数数量，计算三次计数的平均值，计算平均相对生长速率K值，得到原始数据。
+
+-   K值计算公式：
+
+$$K=\frac{lg N_{t}-lgN_{0}}{t-t_{0}}$$
+
+式中, N0为初始细胞数目、Nt为培养7d后的细胞数、t为培养时间。
+
+# 数据分析及可视化
+
+单因素方差分析(AN-OVA)和Duncan多重比较分析(α=0.05)以及可视化均使用R（4.2.2）统计软件完成。
+
+得出的实验数据用平均值(Mean)±标准差(SD)表示
+
+```{r cars1 }
+#单因素方差分析
+N_aov=aov(k~氮源,data = N_ogdata)
+summary(N_aov)
+```
+
+p值小于0.05，处理间差异显著，对处理间的差异进行Duncan多重比较分析。
+
+```{r cars4 }
+salt_aov=aov(k~盐度,data = salt_ogdata)
+summary(salt_aov)
+
+```
+
+使用盐度原始数据单因素方差分析得的p值远大于0.05，处理间差异不显著，无法进行多重比较分析。
+
+```{r cars2 }
+salt_aov1=aov(k~盐度,data = salt_newdata)
+summary(salt_aov1)
+
+```
+
+除去原始数据中包含的变异波动较大的数据，使p值减小，进行Duncan多重比较分析。
+
+```{r cars3 }
+#duncan多重检验
+N_duncan=duncan.test(N_aov,"氮源")
+salt_duncan=duncan.test(salt_aov1,"盐度")
+
+#数据整理
+N_data=N_ogdata%>%
+  drop_na()%>%
+  group_by(氮源)%>%
+  summarise(avg=mean(k),sd=sd(k),n=n(),na.rm = TRUE)%>%
+  mutate(labels=N_duncan$groups$groups)
+
+salt_data=salt_newdata%>%
+  group_by(盐度)%>%
+  summarise(avg=mean(k),sd=sd(k),n=n(),na.rm = TRUE)%>%
+  mutate(labels=salt_duncan$groups$groups)
+
+N_data
+salt_data
+
+
+```
+
+使用ggplot2包绘制实验结果图。
+
+```{r echo=FALSE,error=TRUE}
+
+N_p=ggplot(data=N_data,aes(氮源,avg))+
+  geom_col(width = 0.5,fill="grey50")+
+  geom_errorbar(aes(ymin=avg-sd,ymax=avg+sd),width=0.2)+
+  geom_text(aes(y=avg+sd,label=labels,vjust=-0.5,hjust="center"))+
+  ylim(0,0.3)+
+  labs(y="K值\nK-Value",x="氮源\nNitrogen")+
+  theme_classic()
+
+salt_p=ggplot(data=salt_data,aes(盐度,avg))+
+  geom_col(width = 0.5,fill="grey50")+
+  geom_errorbar(aes(ymin=avg-sd,ymax=avg+sd),width=0.2)+
+  geom_text(aes(y=avg+sd,label=labels,vjust=-0.5,hjust="center"))+
+  ylim(0,0.2)+
+  labs(y="K值\nK-Value",x="盐度\nSalinity")+
+  theme_classic()
+
+
+N_p | salt_p
+```
+
+# 结果分析
