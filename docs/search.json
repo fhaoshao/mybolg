@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "关于🙂",
     "section": "",
-    "text": "关于我\n略略略~~\n\n\n关于博客\n本博客主要用于技术整理、知识管理和和写作文，主要是给自己看。但是写点东西出来总是要给别人看的，能点看进来的应该都是有缘人，至于更新，自然就是随缘更新了。\n\n博客架构\n\n使用Quarto在Rstudio中构建的静态网页，部署到Gitpage。\n\n\n教程可以参见Quarto 文档以及这篇博文【传送门】\n\n\n\n联系方式：216000461@nbu.edu.cn"
+    "text": "关于我\n略略略~~\n\n兴趣爱好\n\n\nR语言爱好者\n公路车菜腿\n电吉他玩票\n\n\n\n\n\n关于博客\n本博客主要用于技术整理、知识管理和和写作文，主要是给自己看。但是写点东西出来总是要给别人看的，能点看进来的应该都是有缘人，至于更新，自然就是随缘更新了。\n这玩意不能赚钱，但还是得先写着，等写多了再发到公众号上。哈哈哈哈哈。\n\n博客架构\n\n使用Quarto在Rstudio中构建的静态网页，部署到Gitpage。\n\n\n教程可以参见Quarto 文档以及这篇博文【传送门】\n\n\n\n联系方式：216000461@nbu.edu.cn"
   },
   {
     "objectID": "index.html",
@@ -81,7 +81,7 @@
     "href": "resume.html",
     "title": "简历",
     "section": "",
-    "text": "2021-2025|本科|宁波大学|水产养殖（拔尖人才创新班）\n2018-2021|高中|浙江省永嘉中学"
+    "text": "姓名：邵方昊\n民族：汉\n籍贯：温州永嘉\n政治面貌：共青团员\n英语水平：CET6\nBMI：20.06"
   },
   {
     "objectID": "posts/开始搭建你的个人博客/index.html",
@@ -179,7 +179,7 @@
     "href": "resume.html#科研经历",
     "title": "简历",
     "section": "科研经历",
-    "text": "科研经历\n\n参与项目 岩藻黄素干预帕金森症的结构基础及神经保护机制研究\n\n贡献\n\n负责western blot实验及该实验结果分析\n参与部分论文写作\n\n成果\n\n发表SCI二区论文一篇 排名第四\nLiu J, Lu Y, Tang M, Shao F, Yang D, Chen S, Xu Z, Zhai L, Chen J, Li Q, Wu W, Chen H. Fucoxanthin Prevents Long-Term Administration l-DOPA-Induced Neurotoxicity through the ERK/JNK-c-Jun System in 6-OHDA-Lesioned Mice and PC12 Cells[J]. Marine Drugs, 2022, 20(4): 245.\n浙江省第十四届大学生生命科学竞赛（科学探究类） 三等奖\n全国大学生生命科学竞赛（创新创业类） 三等奖\n\n\n\n\n\n参与生科赛项目 海水鱼寄生虫病（刺激隐核虫病）的数学预警及智能管控\n\n贡献\n\n负责疾病发生数据集的预处理及可视化分析\n负责基于R语言caret包的刺激隐核虫疾病预警机器学习模型实现及Shiny Webapp开发\n\n成果\n\n无"
+    "text": "科研经历\n\n参与项目 岩藻黄素干预帕金森症的结构基础及神经保护机制研究\n\n贡献\n\n负责western blot实验及该实验结果分析\n参与部分论文写作\n\n成果\n\n发表SCI二区论文一篇 排名第四\n\n\nLiu J, Lu Y, Tang M, Shao F, Yang D, Chen S, Xu Z, Zhai L, Chen J, Li Q, Wu W, Chen H. Fucoxanthin Prevents Long-Term Administration l-DOPA-Induced Neurotoxicity through the ERK/JNK-c-Jun System in 6-OHDA-Lesioned Mice and PC12 Cells[J]. Marine Drugs, 2022, 20(4): 245.\n\n\n浙江省第十四届大学生生命科学竞赛（科学探究类） 三等奖\n全国大学生生命科学竞赛（创新创业类） 三等奖\n\n\n\n\n\n参与生科赛项目 海水鱼寄生虫病（刺激隐核虫病）的数学预警及智能管控\n\n贡献\n\n负责疾病发生数据集的预处理及可视化分析\n负责基于R语言caret包的刺激隐核虫疾病预警机器学习模型实现及Shiny Webapp开发\n\n成果\n\n无"
   },
   {
     "objectID": "resume.html#校园经历",
@@ -194,5 +194,19 @@
     "title": "简历",
     "section": "",
     "text": "2021-2025|本科|宁波大学|水产养殖（拔尖人才创新班）\n2018-2021|高中|浙江省永嘉中学"
+  },
+  {
+    "objectID": "resume.html#教育背景",
+    "href": "resume.html#教育背景",
+    "title": "简历",
+    "section": "教育背景",
+    "text": "教育背景\n2021-2025|本科|宁波大学|水产养殖（拔尖人才创新班）\n2018-2021|高中|浙江省永嘉中学"
+  },
+  {
+    "objectID": "resume.html#基本信息",
+    "href": "resume.html#基本信息",
+    "title": "简历",
+    "section": "",
+    "text": "姓名：邵方昊\n民族：汉\n籍贯：温州永嘉\n政治面貌：共青团员\n英语水平：CET6\nBMI：20.06"
   }
 ]

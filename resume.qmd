@@ -2,8 +2,20 @@
 title: "简历"
 toc: false
 ---
+## 基本信息
+姓名：邵方昊
 
-## 教育经历
+民族：汉
+
+籍贯：温州永嘉
+
+政治面貌：共青团员
+
+英语水平：CET6
+
+BMI：20.06
+
+## 教育背景
 
 2021-2025\|本科\|宁波大学\|水产养殖（拔尖人才创新班）
 
@@ -23,7 +35,9 @@ toc: false
 
 :   发表SCI二区论文一篇 排名第四
 
-    Liu J, Lu Y, Tang M, Shao F, Yang D, Chen S, Xu Z, Zhai L, Chen J, Li Q, Wu W, Chen H. Fucoxanthin Prevents Long-Term Administration l-DOPA-Induced Neurotoxicity through the ERK/JNK-c-Jun System in 6-OHDA-Lesioned Mice and PC12 Cells\[J\]. Marine Drugs, 2022, 20(4): 245.
+    ::: {.papers style="font-size:12px"}
+    -   Liu J, Lu Y, Tang M, Shao F, Yang D, Chen S, Xu Z, Zhai L, Chen J, Li Q, Wu W, Chen H. Fucoxanthin Prevents Long-Term Administration l-DOPA-Induced Neurotoxicity through the ERK/JNK-c-Jun System in 6-OHDA-Lesioned Mice and PC12 Cells\[J\]. Marine Drugs, 2022, 20(4): 245.
+    :::
 
     浙江省第十四届大学生生命科学竞赛（科学探究类） 三等奖
 

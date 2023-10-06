@@ -4,29 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "b575c7334d0b36b5",
+        "id": "26e30a9d6e08359a",
         "type": "tabs",
         "children": [
           {
-            "id": "ab71b9bee0e1b501",
+            "id": "0e557a194df83989",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "aa3524c8748c2774",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "profile.jpg"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "profile.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "profile.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "profile.jpg"
-              }
+              "state": {}
             }
           }
         ]
@@ -153,12 +138,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "aa3524c8748c2774",
+  "active": "6a64054eaeeaa577",
   "lastOpenFiles": [
+    "未命名",
+    "2023-10-03.md",
+    "未命名.canvas",
+    "_site/profile.jpg",
+    "docs/posts/welcome/thumbnail.jpg",
+    "_site/posts/post-with-code/image.jpg",
+    "_freeze/posts/盐度和氮源对新月菱形藻生长的影响/index/figure-html/unnamed-chunk-1-1.png",
     "docs/profile.jpg",
     "docs/posts/post-with-code/image.jpg",
-    "_site/profile.jpg",
-    "_site/posts/post-with-code/image.jpg",
     "_site/posts/welcome/thumbnail.jpg"
   ]
 }

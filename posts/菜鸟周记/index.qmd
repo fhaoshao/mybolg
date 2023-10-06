@@ -3,7 +3,7 @@ title: "菜鸟周记"
 description: "我在菜鸟驿站工作的见闻"
 date: "2023-08-03"
 author: [fhaoshao]
-title-block-banner: rgb(249,250,247)
+title-block-banner: rgb(251,252,250)
 date-format: short
 categories: [中学生作文]
 draft: false
