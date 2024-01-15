@@ -14,8 +14,19 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "e8487cf18f2af41d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,9 +149,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6a64054eaeeaa577",
+  "active": "e8487cf18f2af41d",
   "lastOpenFiles": [
-    "未命名",
+    "site_libs/bootstrap/bootstrap.min.js",
+    "site_libs/bootstrap/bootstrap.min.css",
+    "site_libs/bootstrap/bootstrap-icons.woff",
+    "site_libs/bootstrap/bootstrap-icons.css",
+    "site_libs/bootstrap",
+    "site_libs/quarto-html/tippy.umd.min.js",
+    "site_libs/quarto-html/quarto.js",
+    "site_libs/quarto-html/tippy.css",
+    "site_libs/quarto-html/quarto-syntax-highlighting.css",
+    "site_libs/quarto-html/popper.min.js",
+    "site_libs/quarto-html/anchor.min.js",
     "2023-10-03.md",
     "未命名.canvas",
     "_site/profile.jpg",

@@ -1,4 +1,7 @@
 {
   "accentColor": "#fbfafb",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "interfaceFontFamily": "思源宋体 CN",
+  "monospaceFontFamily": "黑体",
+  "translucency": false
 }

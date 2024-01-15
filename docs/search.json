@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "欢迎来访！",
     "section": "",
-    "text": "开始搭建你的个人博客🧑‍💻\n\n\n\n\n\n\n\n技术文章\n\n\n\n\n使用quarto在Rstudio中搭建并管理你的博客网站\n\n\n\n\n\n\n8/3/23\n\n\nfhaoshao\n\n\n\n\n\n\n  \n\n\n\n\n不同氮源及盐度对新月菱形藻生长繁殖的影响\n\n\n\n\n\n\n\n课程设计\n\n\n\n\n生物饵料培养学课程设计\n\n\n\n\n\n\n8/3/23\n\n\nfhaoshao\n\n\n\n\n\n\n  \n\n\n\n\n菜鸟周记\n\n\n\n\n\n\n\n中学生作文\n\n\n\n\n我在菜鸟驿站工作的见闻\n\n\n\n\n\n\n8/3/23\n\n\nfhaoshao\n\n\n\n\n\n\nNo matching items"
+    "text": "学R\n\n\n\n\n\n\n\n资源\n\n\n\n\nR语言学习资源\n\n\n\n\n\n\n8/3/23\n\n\nfhaoshao\n\n\n\n\n\n\n  \n\n\n\n\n开始搭建你的个人博客🧑‍💻\n\n\n\n\n\n\n\n技术文章\n\n\n\n\n使用quarto在Rstudio中搭建并管理你的博客网站\n\n\n\n\n\n\n8/3/23\n\n\nfhaoshao\n\n\n\n\n\n\n  \n\n\n\n\n不同氮源及盐度对新月菱形藻生长繁殖的影响\n\n\n\n\n\n\n\n课程设计\n\n\n\n\n生物饵料培养学课程设计\n\n\n\n\n\n\n8/3/23\n\n\nfhaoshao\n\n\n\n\n\n\n  \n\n\n\n\n菜鸟周记\n\n\n\n\n\n\n\n中学生作文\n\n\n\n\n我在菜鸟驿站工作的见闻\n\n\n\n\n\n\n8/3/23\n\n\nfhaoshao\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -74,14 +74,7 @@
     "href": "categories.html",
     "title": "分类",
     "section": "",
-    "text": "Date\n\n\n文章\n\n\nAuthor\n\n\n\n\n\n\nAug 3, 2023\n\n\n开始搭建你的个人博客🧑‍💻\n\n\nfhaoshao \n\n\n\n\nAug 3, 2023\n\n\n不同氮源及盐度对新月菱形藻生长繁殖的影响\n\n\nfhaoshao \n\n\n\n\nAug 3, 2023\n\n\n菜鸟周记\n\n\nfhaoshao \n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "简历",
-    "section": "",
-    "text": "姓名：邵方昊\n民族：汉\n籍贯：温州永嘉\n政治面貌：共青团员\n英语水平：CET6\nBMI：20.06"
+    "text": "Date\n\n\n文章\n\n\nAuthor\n\n\n\n\n\n\nAug 3, 2023\n\n\n学R\n\n\nfhaoshao \n\n\n\n\nAug 3, 2023\n\n\n开始搭建你的个人博客🧑‍💻\n\n\nfhaoshao \n\n\n\n\nAug 3, 2023\n\n\n不同氮源及盐度对新月菱形藻生长繁殖的影响\n\n\nfhaoshao \n\n\n\n\nAug 3, 2023\n\n\n菜鸟周记\n\n\nfhaoshao \n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/开始搭建你的个人博客/index.html",
@@ -175,6 +168,34 @@
     "text": "结果分析"
   },
   {
+    "objectID": "posts/学R/index.html",
+    "href": "posts/学R/index.html",
+    "title": "学R",
+    "section": "",
+    "text": "学R\n整理本人在各种折腾过程中收集的R语言资料\n\n稍微有点收集癖\n\n\n来自kaggle的R语言教程笔记"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "简历",
+    "section": "",
+    "text": "姓名：邵方昊\n民族：汉\n籍贯：温州永嘉\n英语水平：CET6\nBMI：20.06"
+  },
+  {
+    "objectID": "resume.html#基本信息",
+    "href": "resume.html#基本信息",
+    "title": "简历",
+    "section": "",
+    "text": "姓名：邵方昊\n民族：汉\n籍贯：温州永嘉\n英语水平：CET6\nBMI：20.06"
+  },
+  {
+    "objectID": "resume.html#教育背景",
+    "href": "resume.html#教育背景",
+    "title": "简历",
+    "section": "教育背景",
+    "text": "教育背景\n2021-2025|本科|宁波大学|水产养殖（拔尖人才创新班）\n2018-2021|高中|浙江省永嘉中学"
+  },
+  {
     "objectID": "resume.html#科研经历",
     "href": "resume.html#科研经历",
     "title": "简历",
@@ -187,26 +208,5 @@
     "title": "简历",
     "section": "校园经历",
     "text": "校园经历\n参加2023年FIVB女排奥运资格赛（宁波北仑）志愿者工作"
-  },
-  {
-    "objectID": "resume.html#教育经历",
-    "href": "resume.html#教育经历",
-    "title": "简历",
-    "section": "",
-    "text": "2021-2025|本科|宁波大学|水产养殖（拔尖人才创新班）\n2018-2021|高中|浙江省永嘉中学"
-  },
-  {
-    "objectID": "resume.html#教育背景",
-    "href": "resume.html#教育背景",
-    "title": "简历",
-    "section": "教育背景",
-    "text": "教育背景\n2021-2025|本科|宁波大学|水产养殖（拔尖人才创新班）\n2018-2021|高中|浙江省永嘉中学"
-  },
-  {
-    "objectID": "resume.html#基本信息",
-    "href": "resume.html#基本信息",
-    "title": "简历",
-    "section": "",
-    "text": "姓名：邵方昊\n民族：汉\n籍贯：温州永嘉\n政治面貌：共青团员\n英语水平：CET6\nBMI：20.06"
   }
 ]

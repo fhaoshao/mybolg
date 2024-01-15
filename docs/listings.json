@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/学R/index.html",
       "/posts/开始搭建你的个人博客/index.html",
       "/posts/盐度和氮源对新月菱形藻生长的影响/index.html",
       "/posts/菜鸟周记/index.html"
@@ -10,6 +11,7 @@
   {
     "listing": "/categories.html",
     "items": [
+      "/posts/学R/index.html",
       "/posts/开始搭建你的个人博客/index.html",
       "/posts/盐度和氮源对新月菱形藻生长的影响/index.html",
       "/posts/菜鸟周记/index.html"
