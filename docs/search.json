@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "欢迎来访！",
     "section": "",
-    "text": "学R\n\n\n\n\n\n\n\n资源\n\n\n\n\nR语言学习资源\n\n\n\n\n\n\n8/3/23\n\n\nfhaoshao\n\n\n\n\n\n\n  \n\n\n\n\n开始搭建你的个人博客🧑‍💻\n\n\n\n\n\n\n\n技术文章\n\n\n\n\n使用quarto在Rstudio中搭建并管理你的博客网站\n\n\n\n\n\n\n8/3/23\n\n\nfhaoshao\n\n\n\n\n\n\n  \n\n\n\n\n不同氮源及盐度对新月菱形藻生长繁殖的影响\n\n\n\n\n\n\n\n课程设计\n\n\n\n\n生物饵料培养学课程设计\n\n\n\n\n\n\n8/3/23\n\n\nfhaoshao\n\n\n\n\n\n\n  \n\n\n\n\n菜鸟周记\n\n\n\n\n\n\n\n中学生作文\n\n\n\n\n我在菜鸟驿站工作的见闻\n\n\n\n\n\n\n8/3/23\n\n\nfhaoshao\n\n\n\n\n\n\nNo matching items"
+    "text": "学R\n\n\n\n\n\n\n资源\n\n\n\nR语言学习资源\n\n\n\n\n\n8/3/23\n\n\nfhaoshao\n\n\n\n\n\n\n\n\n\n\n\n\n开始搭建你的个人博客🧑‍💻\n\n\n\n\n\n\n技术文章\n\n\n\n使用quarto在Rstudio中搭建并管理你的博客网站\n\n\n\n\n\n8/3/23\n\n\nfhaoshao\n\n\n\n\n\n\n\n\n\n\n\n\n不同氮源及盐度对新月菱形藻生长繁殖的影响\n\n\n\n\n\n\n课程设计\n\n\n\n生物饵料培养学课程设计\n\n\n\n\n\n8/3/23\n\n\nfhaoshao\n\n\n\n\n\n\n\n\n\n\n\n\n菜鸟周记\n\n\n\n\n\n\n中学生作文\n\n\n\n我在菜鸟驿站工作的见闻\n\n\n\n\n\n8/3/23\n\n\nfhaoshao\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -172,21 +172,21 @@
     "href": "posts/学R/index.html",
     "title": "学R",
     "section": "",
-    "text": "学R\n整理本人在各种折腾过程中收集的R语言资料\n\n稍微有点收集癖\n\n\n来自kaggle的R语言教程笔记"
+    "text": "整理本人在各种折腾过程中收集的R语言资料\n\n稍微有点收集癖\n\n\n\n\n来自kaggle的R语言教程笔记\n\n\n\n现代统计图形谢益辉的力作，生动易理解"
   },
   {
     "objectID": "resume.html",
     "href": "resume.html",
     "title": "简历",
     "section": "",
-    "text": "姓名：邵方昊\n民族：汉\n籍贯：温州永嘉\n英语水平：CET6\nBMI：20.06"
+    "text": "姓名：邵方昊\n民族：汉\n籍贯：温州永嘉\n英语水平：CET6\nBMI：22.06"
   },
   {
     "objectID": "resume.html#基本信息",
     "href": "resume.html#基本信息",
     "title": "简历",
     "section": "",
-    "text": "姓名：邵方昊\n民族：汉\n籍贯：温州永嘉\n英语水平：CET6\nBMI：20.06"
+    "text": "姓名：邵方昊\n民族：汉\n籍贯：温州永嘉\n英语水平：CET6\nBMI：22.06"
   },
   {
     "objectID": "resume.html#教育背景",
@@ -200,7 +200,7 @@
     "href": "resume.html#科研经历",
     "title": "简历",
     "section": "科研经历",
-    "text": "科研经历\n\n参与项目 岩藻黄素干预帕金森症的结构基础及神经保护机制研究\n\n贡献\n\n负责western blot实验及该实验结果分析\n参与部分论文写作\n\n成果\n\n发表SCI二区论文一篇 排名第四\n\n\nLiu J, Lu Y, Tang M, Shao F, Yang D, Chen S, Xu Z, Zhai L, Chen J, Li Q, Wu W, Chen H. Fucoxanthin Prevents Long-Term Administration l-DOPA-Induced Neurotoxicity through the ERK/JNK-c-Jun System in 6-OHDA-Lesioned Mice and PC12 Cells[J]. Marine Drugs, 2022, 20(4): 245.\n\n\n浙江省第十四届大学生生命科学竞赛（科学探究类） 三等奖\n全国大学生生命科学竞赛（创新创业类） 三等奖\n\n\n\n\n\n参与生科赛项目 海水鱼寄生虫病（刺激隐核虫病）的数学预警及智能管控\n\n贡献\n\n负责疾病发生数据集的预处理及可视化分析\n负责基于R语言caret包的刺激隐核虫疾病预警机器学习模型实现及Shiny Webapp开发\n\n成果\n\n无"
+    "text": "科研经历\n\n参与项目 岩藻黄素干预帕金森症的结构基础及神经保护机制研究\n\n贡献\n\n负责western blot实验及该实验结果分析\n参与部分论文写作\n\n成果\n\n发表SCI二区论文一篇 排名第四\n\n\nLiu J, Lu Y, Tang M, Shao F, Yang D, Chen S, Xu Z, Zhai L, Chen J, Li Q, Wu W, Chen H. Fucoxanthin Prevents Long-Term Administration l-DOPA-Induced Neurotoxicity through the ERK/JNK-c-Jun System in 6-OHDA-Lesioned Mice and PC12 Cells[J]. Marine Drugs, 2022, 20(4): 245.\n\n\n浙江省第十四届大学生生命科学竞赛（科学探究类） 三等奖\n全国大学生生命科学竞赛（创新创业类） 三等奖\n\n\n\n\n\n参与生科赛项目 海水鱼寄生虫病（刺激隐核虫病）的数学预警及智能管控\n\n贡献\n\n负责疾病发生数据集的预处理及可视化分析\n负责基于R语言caret包的刺激隐核虫疾病发生预警模型构建及Shiny Webapp开发\n\n成果\n\n无\n\n\n\n\n\n参加生产实习 贝类苗种繁育\n\n实习单位\n\n浙江海洋水产养殖研究所\n\n实习内容\n\n青蛤、文蛤、泥蚶的室内育苗\n协助老师科研工作"
   },
   {
     "objectID": "resume.html#校园经历",
@@ -208,5 +208,26 @@
     "title": "简历",
     "section": "校园经历",
     "text": "校园经历\n参加2023年FIVB女排奥运资格赛（宁波北仑）志愿者工作"
+  },
+  {
+    "objectID": "resume.html#社会经历",
+    "href": "resume.html#社会经历",
+    "title": "简历",
+    "section": "社会经历",
+    "text": "社会经历\n参加2023年FIVB女排奥运资格赛（宁波北仑）志愿者工作"
+  },
+  {
+    "objectID": "posts/学R/index.html#数据分析与建模",
+    "href": "posts/学R/index.html#数据分析与建模",
+    "title": "学R",
+    "section": "",
+    "text": "来自kaggle的R语言教程笔记"
+  },
+  {
+    "objectID": "posts/学R/index.html#可视化与自然语言",
+    "href": "posts/学R/index.html#可视化与自然语言",
+    "title": "学R",
+    "section": "",
+    "text": "现代统计图形谢益辉的力作，生动易理解"
   }
 ]
